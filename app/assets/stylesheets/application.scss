@@ -37,15 +37,25 @@ body {
   padding-top: 10%;
   text-transform: uppercase;
   color: #fff;
+      margin-bottom: 20px;
+    @media only screen and (max-width: 500px)  {
+      height: 200px;
+    }
   .main-text {
     letter-spacing: 6px;
     font-size: 70px;
     margin-bottom: 20px;
+    @media only screen and (max-width: 500px)  {
+      font-size: 50px;
+    }
   }
   .sub-text {
     font-size: 30px;
     letter-spacing: 4px;
     font-weight: lighter;
+    @media only screen and (max-width: 500px)  {
+      font-size: 18px;
+    }
   }
 }
 
@@ -64,17 +74,26 @@ body {
 .para-one {
   width: 50%;
   float: left;
+  @media only screen and (max-width: 400px) {
+      width: 100%;
+    }
 }
 
 .para-two {
   width: 50%;
   float: left;
+  @media only screen and (max-width: 400px) {
+      width: 100%;
+    }
 }
  
 /*----- Menu -----*/
   .menu {
     width:100%;
     background:#ff5a5f;
+    @media only screen and (max-width: 400px) {
+      display: none;
+    }
   }
 
 .menu ul {
@@ -145,6 +164,9 @@ body {
   color: white;
   padding: 10px;
   margin: auto;
+  @media only screen and (max-width: 400px) {
+    display: none;
+  }
   ul {
     li {
       float: left;
